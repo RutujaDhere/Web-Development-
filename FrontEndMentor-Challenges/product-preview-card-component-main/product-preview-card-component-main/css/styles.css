@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Noto+Sans&display=swap');
+
+/* font-family: 'Fraunces', serif;
+font-family: 'Noto Sans', sans-serif; */
+
+body{
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Noto Sans', sans-serif;
+}
+p {
+    font-size: 14px;
+    color: hsl(228, 12%, 48%);
+}
+
+.cart {
+    background-color:hsl(30, 38%, 92%);
+    border-radius: 15px;
+    margin: 3rem auto 1rem auto;
+    width: 50rem;
+    height: 35rem;
+    position: relative;
+    
+}
+
+.product-img {
+    border-radius: 15px 0 0 15px;
+    height: 35rem;
+    width: 25rem;
+    position: absolute;
+}
+.data-section {
+    padding: 2rem;
+    position: absolute;
+    left: 25rem;
+}
+.data-section h4 {
+    color:hsl(228, 12%, 48%);
+    letter-spacing: 5px;
+}
+.data-section h1 {
+    font-family: 'Fraunces', serif;
+}
+.data-section .description {
+    width: 80%;
+}
+.price {
+    display: inline-block;
+    position: relative;
+}
+.price1{
+    position: absolute;
+    color: hsl(158, 36%, 37%);
+    top:  -1.2rem;
+    
+}
+
+.price2 {
+    position: absolute;
+    left: 13rem;
+}
+.addcart{
+    position: relative;
+    top: 6rem;
+    left:0  ; 
+    display: block;
+}
+
+.addcartspan {
+    background-color: hsl(158, 36%, 37%);
+    padding: 10px 100px;
+    color: #fff;
+    border-radius: 10px;
+}
+.img-cart {
+    background-color: hsl(158, 36%, 37%);
+}
