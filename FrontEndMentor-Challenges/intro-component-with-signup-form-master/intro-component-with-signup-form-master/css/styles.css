@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Noto+Sans&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: url(/images/bg-intro-desktop.png);
+    background-color: #FF7978;
+    max-width: 1440px;
+    font-family: 'Fraunces', serif;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.container {
+    max-width: 1440px;
+    height: 90vh;
+    position: relative;
+    font-family: 'Noto Sans', sans-serif;
+}
+.info-container {
+    position: absolute;
+    width: 30%;
+    left: 10rem;
+    top: 13rem;
+    margin: 0 auto;
+    color: rgb(253,255,247);
+    font-family: 'Noto Sans', sans-serif;
+   
+}
+.info-container h1 {
+    font-weight:700;
+    font-size: 48px;
+}
+.info-container p {
+    font-size: 14px;
+}
+.form-container {
+    position: absolute;
+    width: 35%;
+    right: 10rem;
+    top: 7rem;
+}
+.trial-btn {
+    background-color: #5D54A3;
+    border-radius: 5px;
+    text-align: center;
+    padding: 12px 10px;
+}
+.trial-button {
+    color: rgb(253,255,247);
+   text-decoration: none;
+}
+.form-info {
+    background-color: #fff;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+    margin: 1rem 0;
+    
+}
+form{
+    margin: 1rem;
+}
+form input {
+    width: 95%;
+    text-align: left;
+    padding: 12PX;
+    border-radius: 5PX;
+    border:none;
+    border:0.2px solid rgb(223, 220, 220);
+    margin: 10px 0;
+    font-weight: bold;
+    font-family: 'Noto Sans', sans-serif;
+}
+.claim-btn {
+    color: rgb(253,255,247);
+    text-decoration: none;
+    background-color: #37CC8A;
+    border-radius: 5px;
+    width: 100%;
+    text-align: center;
+    padding:  12px 10px;
+}
+.terms {
+    color: red;
+    font-weight: bold;
+}
+.form-info p {
+    color: gray;
+    font-size: 12px;
+}
+
+
+@media screen and (max-width: 375px) {
+    .container {
+        position: relative;
+
+    }
+    .info-container {        
+        position: absolute;
+        top: 1rem;
+        left: 3rem;
+        color: rgb(253,255,247);
+        font-family: 'Noto Sans', sans-serif;
+        width: 100%;
+        margin-top: 1.5rem;
+    }
+    .info-container h1 {
+        display: inline-block;
+        font-size: 32px;
+    }
+    .info-container p {
+        width: 70%;
+        text-align: center;
+    }
+    .form-container {
+        top: 20rem;
+        width: 80%;
+        left: 3rem;
+    }
+    .trial-btn {
+        padding: 1rem 3.5rem;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .trial-button {
+        text-size-adjust: 50%;
+    }
+    footer {
+        position: relative;
+        top: 15rem;
+        
+    }
+    footer p{
+        margin: 1rem;
+    }
+    
+
+}
