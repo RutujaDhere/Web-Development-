@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #0B182B;
+    font-family: 'Outfit', sans-serif;
+}
+
+.container {
+    background-color: #15273F;
+    width: 23%;
+    margin: 2rem auto;
+    border-radius: 10px;
+}
+.img-container {
+    display: flex;
+    justify-content: center;
+    
+}
+.img-container img {
+    width: 90%;
+    margin: 15px 0 0;
+    border-radius: 10px;
+}
+.info-container {
+    
+    margin:0 15px;
+}
+.info-container h2 {
+    margin-bottom: 0;
+    color: #fff;    
+}
+.info-container p {
+    color: gray;
+}
+.link-section {
+    font-size: 14px;
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.link-section .price-sec {
+    color: #00FFF8;
+    display: inline-flex;
+    align-items: center;
+}
+.link-section .time-section {
+    color: gray;
+    display: inline-flex;
+    align-items: center;
+}
+hr {
+    width: 90%;
+    border-bottom: none;
+    border-top: 1px solid gray;
+}
+.bottom-section {
+    padding: 0.5rem 1rem;
+    display: inline-flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+    color: #fff;
+    font-size: 14px;
+}
+.bottom-section img {
+    width: 10%;
+    border-radius: 50%;
+    border: 1px solid #fff;
+}
+.bottom-line {
+    color: gray;
+}
+
+
+@media screen and (max-width: 375px){
+    .img-container img {
+        width: 90%;
+        margin: 20px;
+    }
+    .container {
+        width: 90%;
+    }
+}
+@media only screen and (min-width: 375px) and (max-width: 769px) {
+    .img-container img {
+        width: 90%;
+        margin: 20px;
+    }
+    .container {
+        width: 70%;
+    }
+}
+@media only screen and (min-width: 769px) and (max-width: 1281px) {
+    .img-container img {
+        width: 90%;
+        margin: 20px;
+    }
+    .container {
+        width: 30%;
+    }
+}
